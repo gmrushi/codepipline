@@ -3,10 +3,10 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req ,res) => {
- res.send( '<h1>Rushi main Express App<h1> <h4>message: success<h4>') 
+ res.send( '<h1>Rushi dev4 Express App<h1> <h4>message: success<h4>') 
 })
 
 app.listen(port, ()=> {
-    console.log(`listning to port: ${port}`);
+    console.log(`listning to port: ${port}`);git 
     
 })
