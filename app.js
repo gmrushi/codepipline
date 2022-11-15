@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req ,res) => {
- res.send( '<h1>Rushi rushi Express App<h1> <h4>message: success<h4>') 
+ res.send( '<h1>Rushi Express App<h1> <h4>message: success<h4>') 
 })
 
 app.listen(port, ()=> {
