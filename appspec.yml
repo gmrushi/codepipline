@@ -1,4 +1,4 @@
-version: o.o 
+version: 0.0 
 os: linux
 files: 
  - source: /
